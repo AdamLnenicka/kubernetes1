@@ -2,6 +2,8 @@
 
 This project focuses on building and deploying a guestbook application using Kubernetes and OpenShift. The application consists of a web front end allowing users to submit text via a text input field. Key tasks include Horizontal Pod Scaling, Rolling Updates and Rollbacks, utilization of OpenShift image streams, and deployment of a multi-tier version of the guestbook application.
 
+- Project is documented with screenshots and detailed notes for reference in the `myNotes` document.
+
 ## Tasks Overview:
 
 - Modify the Dockerfile to accommodate the guestbook application's requirements.
@@ -14,7 +16,6 @@ This project focuses on building and deploying a guestbook application using Kub
 - Verify the functionality of the updated index page for the deployed Guestbook – v2 application post-deployment rollout.
 - Review the revision history for the deployment post-rollout to track changes and updates.
 - Confirm the status of the updated deployment following a rollback to restore the previous version.
-- Document the project with screenshots and detailed notes for reference in the `myNotes` document.
 - Utilize OpenShift image streams to facilitate smooth rollout of updates.
 - Deploy a multi-tier version of the guestbook application for enhanced functionality.
 
